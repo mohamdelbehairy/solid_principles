@@ -16,7 +16,7 @@
 import 'payment_stratgy.dart';
 
 class PaymentProccessor {
-  // single responsbility && open-close
+  // single responsbility && open-close && dependency inversion
   final PaymentStratgy paymentStratgy;
 
   PaymentProccessor(this.paymentStratgy);
